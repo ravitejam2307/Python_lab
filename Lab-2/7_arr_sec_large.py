@@ -16,8 +16,8 @@ def second_largest(list):
 #input of list
 li=[]
 n=int(input("Enter size of list "))
-e=int(input("Enter elements of list "))
 for i in range(0,n):
+    e=int(input("Enter elements of list "))
     li.append(e)
 
 #smallest
