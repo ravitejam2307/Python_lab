@@ -14,7 +14,7 @@ for i in range(0, len(arr)):
     print(arr[i],end=" ") 
          
 #Array Left Rotation
-n = int(input("Enter n value for Left Rotation:"))
+n = int(input("\nEnter n value for Left Rotation:"))
 for i in range(0, n):       
     first = arr[0];    
         
