@@ -9,13 +9,12 @@ for i in range(0, n):
  
     arr.append(ele) 
 
-n = int(input("Enter n value for Left Rotation:"))
-
 print("Given Array Elements are")
 for i in range(0, len(arr)):    
     print(arr[i],end=" ") 
          
 #Array Left Rotation
+n = int(input("Enter n value for Left Rotation:"))
 for i in range(0, n):       
     first = arr[0];    
         
