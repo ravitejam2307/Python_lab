@@ -24,7 +24,7 @@ for i in range(0, n):
             
         
     arr[len(arr)-1] = first;
-print("Array after left rotation: ");    
+print("Array after left rotation: ")  
 for i in range(0, len(arr)):    
     print(arr[i],end=" ")
     
@@ -38,6 +38,6 @@ for i in range(0, n):
         arr[j] = arr[j-1];    
             
     arr[0] = last;         
-print("Array after Right rotation: ");    
+print("Array after Right rotation: ")    
 for i in range(0,len(arr)):    
     print(arr[i],end=" ")
